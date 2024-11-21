@@ -83,6 +83,13 @@ textarea {
     width: 100%;
 }
 
+select {
+    appearance: none;
+    background-image: url(resources/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
+
 button {
     font-family: 'Vietnam Pro', sans-serif;
     font-size: 1.25rem;
