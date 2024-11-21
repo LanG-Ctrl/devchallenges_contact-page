@@ -94,3 +94,43 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+@media (max-width: 1024px) {
+    .title {
+        width: 60%;
+    }
+
+    form {
+        width: 75%;
+    }
+}
+
+@media (max-width: 640px) {
+    img {
+        margin-left: 20px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+
+    form {
+        width: 90%;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
