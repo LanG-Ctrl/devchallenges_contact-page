@@ -1,20 +1,28 @@
 body {
     font-family: 'Vietnam Pro', sans-serif !important;
     background-image: url('resources/background.svg');
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 100%; 
+    margin: 0;
+
 }
 
 img {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 50px;
 }
 
 h1 {
     font-size: 4rem;
+    font-weight: 800;
 }
 
 h2 {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-bottom: 70px;
 }
 
 .title {
@@ -37,11 +45,23 @@ form {
     flex-wrap: wrap;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.row > div {
+    flex: 1;
+}
+
 label {
     font-size: 0.875rem;
     font-weight: 500;
     color: #FFFFFF;
-    margin-bottom: -15px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 input, select, textarea {
@@ -49,21 +69,18 @@ input, select, textarea {
     font-size: 1rem;
     font-weight: 600;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
     border: none;
-    width: 300px;
+    width: 100%; 
     box-sizing: border-box;
+    background-color: #FFFFFF;
+    flex: 1 1 calc(50% - 10px); 
 }
 
 textarea {
     height: 200px;
+    margin-top: -20px;
     width: 100%;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 10px;
-    padding: 20px;
-    border: none;
-    box-sizing: border-box;
 }
 
 button {
