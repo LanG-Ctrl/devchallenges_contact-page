@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">Contact Page by LanG | devChallenges</h1>
 
 <div align="center">
